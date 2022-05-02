@@ -19,7 +19,7 @@ wget https://hub.fastgit.xyz/xanmod/linux/archive/refs/tags/5.17.5-xanmod1.tar.g
 #tar -xf linux-"$VERSION".tar.xz
 tar -xzvf  "$VERSION".tar.gz
 #cd linux-"$VERSION" || exit
-cd "$VERSION"
+cd linux-"$VERSION"
 # copy config file
 cp ../config .config
 
