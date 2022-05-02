@@ -1,4 +1,4 @@
-name: Build kernel deb packages
+name: Build kernel for Gentoo/Archlinux
 on: push
 
 jobs:
