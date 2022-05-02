@@ -32,7 +32,7 @@ cp ../config .config
 
 # build deb packages
 CPU_CORES=$(($(grep -c processor < /proc/cpuinfo)*2))
-make deb-pkg -j"$CPU_CORES"
+make  -j"$CPU_CORES"
 
 # move deb packages to artifact dir
 cd ..
